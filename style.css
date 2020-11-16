@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+   width: 900px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10rem;
+   font-size: 1.8rem;
+  
+}
+.container h1 {
+    margin-top: 2rem;
+    text-align: center;
+}
+.container h3 {
+    text-align: center;
+    color: rgb(5, 99, 5);
+    margin-top: -1rem;
+}
+.label-div {
+    padding: 20px;
+    font-size: 2rem;
+}
+.label-div input {
+    padding: 1.3rem;
+    width: 80%;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.btn {
+    display: inline;
+    margin-left: 23rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1.3rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: NONE;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: lightgreen;
+}
+
+#delAll {
+    margin-left: 3rem;
+}
+.log {
+    background-color: antiquewhite;
+    margin-left: 1rem;
+    padding: 5px;
+    margin-top: 1rem;
+    margin: 3px;
+}
+.log button {
+    margin: 5px;
+    padding: 0.3rem 0.5rem;
+    background-color: rgb(202, 84, 84);
+    border: none;
+    outline: none;
+    color: white;
+}
